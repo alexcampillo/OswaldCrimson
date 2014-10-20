@@ -6,36 +6,45 @@ body {
 	background-color: #b8b8b8;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Oswald' sans-serif;
+	text-transform: uppercase;
+}
+
+h3, p, a, li {
+	font-family: 'Crimson Text', serif;	
+	font-weight: 400;
+}
+
+h1, h2, h3, a {
+	line-height: 1.75em;
+}
+
+h3, a, li {
+	font-style: italic;
+}
+
+h2, a {
+	font-size: 1.125em;
+}
+
+h1 {
 	font-weight: 300;
 	font-size: 3em;
 	letter-spacing: .1em;
-	line-height: 1.75em;
-	text-transform: uppercase;
 }
 
 h2 {
-	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
-	font-size: 1.125em;
 	letter-spacing: .26em;
-	line-height: 1.75em;
-	text-transform: uppercase;
 }
 
 h3 {
-	font-family: 'Crimson Text', serif;
-	font-weight: 400;
 	font-size: 1.25em;
-	font-style: italic;
 	letter-spacing: .02em;
-	line-height: 1.75em;
 }
 
 p {
-	font-family: 'Crimson Text', serif;
-	font-weight: 400;
 	font-size: .85em;
 	letter-spacing: .05em;
 	line-height: 1.47em;
@@ -43,12 +52,7 @@ p {
 }
 
 a {
-	font-family: 'Crimson Text', serif;
-	font-weight: 400;
-	font-size: 1.125em;
-	font-style: italic;
 	letter-spacing: .04em;
-	line-height: 1.75em;
 	text-decoration: none;
 }
 
@@ -57,18 +61,8 @@ ul {
 }
 
 li {
-	font-family: 'Crimson Text', serif;
-	font-weight: 400;
 	font-size: .85em;
-	font-style: italic;
 	letter-spacing: .2em;
 	line-height: 2.8em;
 	text-transform: uppercase;
 }
-
-button {
-
-}
-
-
-
